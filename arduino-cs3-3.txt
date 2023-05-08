@@ -1,9 +1,1336 @@
+int tempo= 70;
+int C4 = 262;
+int halfnote = 2000;
+int output = 13;
+int a4 = 440;
+int B4 = 494;
+int D4 = 294;
+int E4 = 330;
+int F4 = 349;
+int G4 = 392;
+int Cs4 = 277;
+int Gs4 = 415;
+int Fs4 = 370;
+int Ds4 = 311;
+int sixteenth = 250;
+int quarter = 1000;
+int eighth = 350;
+int whole = 4000;
+int dotsixteenth = 375;
+int doteighth = 550;
+int thirtysecond = 125; 
+
 void setup(){
 
+// Measure 1, 3 Seconds
+// Cs4
+tone(output, Cs4);
+delay (eighth);
+// Fs4
+tone(output, Cs4);
+delay (eighth);
+// Fs4
+tone(output, Fs4);
+delay (sixteenth);
+// Cs4
+tone(output, Cs4);
+delay (eighth);
+noTone(output);
+delay(100);
+// a4
+tone(output, a4);
+delay(halfnote);
 
+// Measure 2, 4 seconds
+//D4
+tone(output, D4);
+delay (quarter);
+
+//Measure 3, 4 seconds
+// rest for quarter and doteighth
+noTone(output);
+delay(quarter);
+noTone(output);
+delay(eighth);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay (sixteenth);
+//Gs4
+tone(output, Gs4);
+delay(eighth);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+//a4
+tone(output, a4);
+delay(eighth);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(eighth);
+
+//Measure 4, 3 seconds
+//Fs4
+tone(output, Fs4);
+delay(halfnote);
+
+//Measure 5, 3 seconds
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+
+//Measure 6, 3 seconds
+//E4
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E4
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E4
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E4
+tone(output, E4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//E4
+tone(output, E4);
+delay(quarter);
+noTone(output);
+delay(100);
+//E4
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E4
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E4
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E4
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//B4
+tone(output, B4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//B4
+tone(output, B4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+
+//Measure 7, 3 seconds
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(eighth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E4
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+
+//Measure 8, 3 seconds
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//B4
+tone(output, B4);
+delay(thirtysecond);
+//Measure 7, 3 seconds
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(eighth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E4
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//a4
+tone(output, a4);
+delay(sixteenth);
+//Measure 7, 3 seconds
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(eighth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E4
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+//Measure 7, 3 seconds
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(eighth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E4
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//rest for two quarter notes
+noTone(output);
+delay(quarter);
+noTone(output);
+delay(quarter);
+
+//Measure 9, 3 seconds
+//rest for sixteenth
+noTone(output);
+delay(sixteenth);
+//Cs4
+tone(output, Cs4);
+delay(eighth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+//a4
+tone(output, a4);
+delay(sixteenth);
+//B4
+tone(output, B4);
+delay(sixteenth);
+//rest for sixteenth
+noTone(output);
+delay(sixteenth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+//a4
+tone(output, a4);
+delay(sixteenth);
+//B4
+tone(output, B4);
+delay(sixteenth);
+
+//Measure 10, 4 seconds
+//rest for sixteenth
+noTone(output);
+delay(sixteenth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+//Fs4
+tone(output, Fs4);
+delay(sixteenth);
+//a4
+tone(output, a4);
+delay(sixteenth);
+//B4
+tone(output, B4);
+delay(sixteenth);
+//rest for sixteenth
+noTone(output);
+delay(sixteenth);
+//Cs4
+tone(output, Cs4);
+delay(eighth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+//D4
+tone(output, D4);
+delay(sixteenth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+
+//Measure 11, 3 seconds
+//B4
+tone(output, B4);
+delay(eighth);
+noTone(output);
+delay(100);
+//a4
+tone(output, a4);
+delay(eighth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+//B4
+tone(output, D4);
+delay(eighth);
+noTone(output);
+delay(100);
+//a4
+tone(output, a4);
+delay(eighth);
+noTone(output);
+delay(100);
+//D4
+tone(output, D4);
+delay(sixteenth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+
+//Measure 12, 3 seconds
+//B4
+tone(output, B4);
+delay(eighth);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+//B4
+tone(output, B4);
+delay(eighth);
+noTone(output);
+delay(100);
+//Cs4
+tone(output, Cs4);
+delay(sixteenth);
+//a4
+tone(output, a4);
+delay(quarter);
+noTone(output);
+delay(100);
+
+
+// Measure 13, 3 Seconds
+// C#4
+tone(output, Cs4);
+delay (sixteenth); 
+// C#4
+tone(output, Cs4);
+delay (sixteenth); 
+// F#4
+tone(output, Fs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// F#4
+tone(output, Fs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// a4
+tone(output, a4);
+delay (sixteenth);
+noTone(output);
+delay(100); 
+// B4
+tone(output, B4);
+delay (sixteenth); 
+// C#4
+tone(output, Cs4);
+delay (sixteenth); 
+// C#4
+tone(output, Cs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// F#4
+tone(output, Fs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// F#4
+tone(output, Fs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// a4
+tone(output, a4);
+delay (sixteenth);
+noTone(output);
+delay(100); 
+// B4
+tone(output, B4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+
+//Measure 14 4 sec 
+// C#4
+noTone(output);
+delay(sixteenth);
+tone(output, Cs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// C#4
+tone(output, Cs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// C#4
+tone(output, Cs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// F#4
+tone(output, Fs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// F#4
+tone(output, Fs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// a4
+tone(output, a4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// B4
+tone(output, B4);
+delay (sixteenth); 
+noTone(sixteenth);
+delay(100);
+// C#4
+tone(output, Cs4);
+delay (eighth); 
+noTone(output);
+delay(100);
+// C#4
+tone(output, Cs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// C#4
+tone(output, Cs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// C#4
+tone(output, Cs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// D4
+tone(output, D4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+// C#4
+tone(output, Cs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+
+//Measure 15 3
+// B4
+tone(output, B4);
+delay (eighth);
+// B4
+tone(output, B4);
+delay (eighth);
+// A4
+tone(output, a4);
+delay (eighth);
+// A4
+tone(output, a4);
+delay (eighth);
+// D4
+tone(output, D4);
+delay (sixteenth);
+// C#4
+tone(output, Cs4);
+delay (sixteenth);
+// B4
+tone(output, B4);
+delay (eighth);
+// B4
+tone(output, B4);
+delay (eighth);
+// A4
+tone(output, a4);
+delay (eighth);
+// A4
+tone(output, a4);
+delay (eighth);
+// D4
+tone(output, D4);
+delay (sixteenth);
+// C#4
+tone(output, Cs4);
+delay (sixteenth);
+
+//Measure 16 3 seconds 
+// B4
+tone(output, B4);
+delay (eighth);
+noTone(output);
+delay(100);
+// C#4
+tone(output, Cs4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+// B4
+tone(output, B4);
+delay (eighth);
+noTone(output);
+delay(100);
+// A4
+tone(output, a4);
+delay (eighth);
+noTone(output);
+delay(100);
+// F#4
+tone(output, Fs4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+// F#4
+tone(output, Fs4);
+delay (eighth);
+noTone(output);
+delay(100);
+// G#
+tone(output, Gs4);
+delay (eighth);
+noTone(output);
+delay(100);
+// A4
+tone(output, a4);
+delay (eighth);
+noTone(output);
+delay(100);
+// B4
+tone(output, B4);
+delay (eighth);
+noTone(output);
+delay(100);
+
+//Measure 17 4 sec 
+// F#
+tone(output, Fs4);
+delay (quarter);
+noTone(output);
+delay(100); 
+// F#4
+tone(output, Fs4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+// F#4
+tone(output, Fs4);
+delay (eighth);
+noTone(output);
+delay(100);
+// G4
+tone(output, G4);
+delay (eighth);
+noTone(output);
+delay(100);
+// A4
+tone(output, a4);
+delay (eighth);
+noTone(output);
+delay(100);
+// F#4
+tone(output, Fs4);
+delay (eighth);
+noTone(output);
+delay(100);
+
+//Measure 18 3 seconds 
+//C#
+tone(output, Cs4);
+delay (quarter);
+//F#
+tone(output, Fs4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay (eighth);
+noTone(output);
+delay(100);
+//G#
+tone(output, Gs4);
+delay (eighth);
+noTone(output);
+delay(100);
+//A4
+tone(output, a4);
+delay (eighth);
+noTone(output);
+delay(100);
+//C#
+tone(output, Cs4);
+delay (eighth);
+noTone(output);
+delay(100);
+
+//Measure 19 4 seconds
+// E4
+tone(output, E4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+// E4
+tone(output, E4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+// E4
+tone(output, E4);
+delay (sixteenth);
+// E4
+tone(output, E4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+// C#
+tone(output, Cs4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+// D4
+tone(output, D4);
+delay (sixteenth);
+// E4
+tone(output, E4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+// E4
+tone(output, E4);
+delay (sixteenth);
+// E4
+tone(output, E4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+// E4
+tone(output, E4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+// F#
+tone(output, Fs4);
+delay (sixteenth);
+
+//Measure 20 3 seconds
+// E4
+tone(output, E4);
+delay (thirtysecond);
+// D#
+tone(output, Ds4);
+delay (sixteenth);
+// C#
+tone(output, Cs4);
+delay (quarter);
+noTone(output);
+delay(100);
+// F#
+tone(output, Fs4);
+delay (sixteenth);
+// F#
+tone(output, Fs4);
+delay (eighth);
+// G#
+tone(output, Gs4);
+delay (eighth);
+// A4
+tone(output, a4);
+delay (eighth);
+// B4
+tone(output, B4);
+delay (eighth);
+
+// Measure 21, 3 Seconds
+//F#4
+tone(output, Fs4);
+delay (quarter); 
+noTone(output);
+delay(100);
+//F#4
+tone(output, Fs4);
+delay (sixteenth); 
+noTone(output);
+delay(100);
+//F#4
+tone(output, Fs4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+//G#
+tone(output, Gs4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+//a4
+tone(output, a4);
+delay (sixteenth);
+noTone(output);
+delay(100);
+//C#4
+tone(output, Cs4);
+delay (eighth);
+noTone(output);
+delay(100);
+
+// Measure 22, 3 seconds
+//B
+tone(output, B4);
+delay (eighth); 
+noTone(output);
+delay(100);
+//a
+tone(output, a4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//G#4
+tone(output, Gs4);
+delay (eighth);
+//E4
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E4
+tone(output, E4);
+delay(eighth);
+noTone(output);
+delay(100);
+//C#
+tone(output, Cs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//C#
+tone(output, Cs4);
+delay(eighth);
+noTone(output);
+delay(100);
+//a
+tone(output, a4);
+delay (eighth);
+noTone(output);
+delay(100);
+
+// Measure 23, 3 seconds
+//E
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//C#
+tone(output, Cs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+
+// Measure 24, 3 seconds
+//E
+tone(output, E4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//D
+tone(output, D4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//C#
+tone(output, Cs4);
+delay(halfnote);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//G#
+tone(output, Gs4);
+delay(eighth);
+noTone(output);
+delay(100);
+//a
+tone(output, a4);
+delay(eighth);
+noTone(output);
+delay(100);
+//C#
+tone(output, Cs4);
+delay(eighth);
+noTone(output);
+delay(100);
+
+// Measure 25, 3 seconds
+//D
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D
+tone(output, D4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//D
+tone(output, D4);
+delay(eighth);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(quarter);
+noTone(output);
+delay(100);
+
+//Measure 26, 3 seconds
+//D
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(eighth);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//C
+tone(output, C4);
+delay(eighth);
+noTone(output);
+delay(100);
+//C
+tone(output, D4);
+delay(eighth);
+noTone(output);
+delay(100);
+
+// Measure 27, 3 seconds
+//F#
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D
+tone(output, D4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//D
+tone(output, D4);
+delay(eighth);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//D
+tone(output, D4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//E
+tone(output, E4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+
+// Measure 28, 3 seconds
+//a
+tone(output, a4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//a
+tone(output, a4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//a
+tone(output, a4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//G#
+tone(output, Gs4);
+delay(thirtysecond);
+noTone(output);
+delay(100);
+//G#
+tone(output, Gs4);
+delay(sixteenth);
+noTone(output);
+delay(100);
+//F#
+tone(output, Fs4);
+delay(eighth);
+noTone(output);
+delay(100);
+//G#
+tone(output, Gs4);
+delay(eighth);
+noTone(output);
+delay(100);
+//a
+tone(output, a4);
+delay(eighth);
+noTone(output);
+delay(100);
+//C#
+tone(output, Cs4);
+delay(eighth);
+noTone(output);
+delay(100);
+
+//END
+noTone(output); // stop playing
 }
 
 void loop(){
-
     
 }
